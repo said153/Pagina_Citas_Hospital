@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #252627;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.imagenheader{
+    margin-left: 0%;
+    margin-right: auto;
+}
+
+.imagenheader img{
+    width: 85px;
+    height: 80px;
+    margin-left: 20%;
+    margin-right: auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.imagenheader img:hover{
+    transform: scale(1.1);
+}
+
+.navbar{
+    list-style: none;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-right: 50px; 
+}
+
+.navbar li{
+    width: 70px;
+    height:  70px;
+    line-height: 70px;
+    margin: 0 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 3px solid white;
+    float: left;
+    transition: all 0.5s ease;
+}
+
+.navbar a{
+    color: white;
+    font-size: 23px;
+}
+
+.position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carrusel-container{
+    width: auto;
+    height: 700px;
+}
+
+.carrusel {
+    background-image: url(Imagenes/solen-feyissa-jGmBZypoFPc-unsplash.jpg);
+    background-size: cover;
+    margin-top: 25px;
+    height: 75%;
+    width: 65%;
+    border-radius: 15px;
+    animation: slider 20s infinite ease-in-out;
+}
+
+@keyframes  slider{
+    25%{
+        background-image: url(Imagenes/woman-2141808_1280.jpg);
+        background-size: cover;
+        width: 65%;
+    }
+    
+    50%{
+        background-image: url(Imagenes/hospital-ward-1338585_1280.jpg);
+        background-size: cover;
+        width: 65%;
+    }
+
+    75%{
+        background-image: url(Imagenes/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg);
+        background-size: cover;
+        width: 60%;
+    }
+
+    100%{
+        background-image: url(Imagenes/solen-feyissa-jGmBZypoFPc-unsplash.jpg);
+        background-size: cover;
+        width: 65%;
+    }
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about h1{
+    color: white;
+}
