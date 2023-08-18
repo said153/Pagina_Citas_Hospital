@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@1&family=Noto+Serif:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@1&family=Hind:wght@300&family=Noto+Serif:ital,wght@1,200&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -113,12 +116,34 @@ body{
 }
 
 .about{
+    padding-top: 50px;
+    margin-top: 50px;
+    height: 800px;
+    width: auto;
+}
+
+.tituloabout{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 50px;
+    color: white;
+    font-family: 'Baskervville', serif;
+    font-size: 23px;
 }
 
-.about h1{
+.textabout p{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-family: 'Baskervville', serif;
+    font-size: 20px;
     color: white;
+}
+
+.finaltext{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
