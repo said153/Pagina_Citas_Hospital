@@ -118,7 +118,7 @@ body{
 .about{
     padding-top: 50px;
     margin-top: 50px;
-    height: 800px;
+    height: 900px;
     width: auto;
 }
 
@@ -137,13 +137,56 @@ body{
     text-align: justify;
     padding-left: 400px;
     padding-right: 400px;
-    font-family: 'Baskervville', serif;
+    font-family: 'Hind', sans-serif;
     font-size: 20px;
     color: white;
 }
 
-.finaltext{
+.textabout .finaltext{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-family: 'Baskervville', serif;
+    font-size: 18px;
+}
+
+.textabout .atte{
+    font-family: 'Baskervville', serif;
+    font-size: 18px;
+}
+
+.contact{
+    height: 700px;
+    width: auto;
+}
+
+.contact h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.forms{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.containerform{
+    padding-top: 50px;
+    width: 35%;
+    height: 400px;
+}
+
+.containerform label{
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.containerdatos{
+    margin-bottom: 25px;
 }
